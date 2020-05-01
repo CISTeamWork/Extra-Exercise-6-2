@@ -61,7 +61,7 @@ namespace TaxCalculator
             return tax;                                                        //returns calculated tax amount
         }
 
-        private void txtIncome_TextChanged(object sender, EventArgs e)
+        private void txtIncome_TextChanged(object sender, EventArgs e)         //method added to clear textbox
         {
             txtTax.Text = "";                                                  //clears the Income Tax Owed text box if Taxable Income textbox value changed
         }
